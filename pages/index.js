@@ -9,9 +9,9 @@ import Grid from '../components/layouts/Grid'
  function Home({details}) {
   return (
     <>
-          <Section>
-            <Container>
-              <Grid classes="flex gap-6 wrap">
+          <Section spacing="large" background="secondary">
+            <Container align="center">
+              <Grid classes="flex gap-6 wrap -ml-4 -mr-4">
         {
           details.map(detail => {
             return (

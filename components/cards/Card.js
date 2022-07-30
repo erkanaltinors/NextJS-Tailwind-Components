@@ -5,7 +5,7 @@ import "moment/locale/tr"
 
 export default function Card(props) {
   return (
-        <div className="w-full flex flex-col justify-between p-4 border-gray-100 border-2 rounded">
+        <div className="w-full flex flex-col justify-between p-4 border-gray-100 border-2 rounded bg-white">
           <div>
             <div className="relative overflow-hidden">
               <Image src={props.image} layout={props.layout} width={props.width} height={props.height} priority="true" className="hover:scale-125 transition-all cursor-pointer" />
