@@ -11,7 +11,7 @@ import Grid from '../components/layouts/Grid'
     <>
           <Section>
             <Container>
-              <Grid classes="flex gap-6 wrap test2">
+              <Grid classes="flex gap-6 wrap">
         {
           details.map(detail => {
             return (
